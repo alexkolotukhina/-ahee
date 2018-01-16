@@ -44,6 +44,8 @@ a {
 	background-size: cover;
 	height: 100vh;
 	padding-top: 50px;
+
+	display: flex;
 }
 .ba-header__container {
 	position: relative;
@@ -121,17 +123,14 @@ a {
 /* ABOUT */
 .ba-about {
 	background: #00baba;
-	height: 700px;
 	color: #fff;
-}
-.ba-about__img {
-	margin-top: 75px;
+	padding: 66px 0;
 }
 .ba-about__title {
-	margin: 164px 0 8px 70px;
+	margin:  97px 0 8px 70px;
 }
 .ba-about__text {
-	margin: 0 0 10px 69px;
+	margin: 0 0 10px 70px;
 }
 /* SERVICES */
 .ba-services {
@@ -341,7 +340,8 @@ a {
 	margin: 0 0 25px;
 }
 .ba-blog__text {
-	margin: 0 300px 28px;
+	margin: 0 auto 28px;
+	max-width: 570px;
 	line-height: 25px;
 }
 .ba-blog__gallery {
